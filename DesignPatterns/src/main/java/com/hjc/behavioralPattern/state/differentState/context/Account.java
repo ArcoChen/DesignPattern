@@ -59,7 +59,7 @@ public class Account {
 
     //取款
     public void withdraw(double amount){
-        System.out.println(this.owner+"存款"+amount);
+        System.out.println(this.owner+"取款"+amount);
         //调整状态对象的deposit()方法
         state.withdraw(amount);
         System.out.println("现在余额为："+this.balance);
